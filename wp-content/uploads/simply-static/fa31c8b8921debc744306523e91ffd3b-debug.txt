@@ -1,590 +1,638 @@
-[2025-04-02 15:47:29] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
-[2025-04-02 15:47:29] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
-[2025-04-02 15:47:29] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
-[2025-04-02 15:47:30] [class-ss-archive-creation-job.php:172] Current task: setup
-[2025-04-02 15:47:30] [class-ss-archive-creation-job.php:182] Performing task: setup
-[2025-04-02 15:47:30] [class-ss-task.php:44] Status message: [setup] Configurar
-[2025-04-02 15:47:30] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849\
-[2025-04-02 15:47:30] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/retroemula2.github.io/
-[2025-04-02 15:47:30] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
-[2025-04-02 15:47:30] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
-[2025-04-02 15:47:30] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
-[2025-04-02 15:47:30] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2025-04-02 15:47:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/
-[2025-04-02 15:47:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2025-04-02 15:47:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c125f0dc-fao5HZ.tmp
-[2025-04-02 15:47:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/?simply_static_page=28
-[2025-04-02 15:47:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/?simply_static_page=28
-[2025-04-02 15:47:30] [class-ss-url-fetcher.php:103] Filesize: 23275 bytes
-[2025-04-02 15:47:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:30] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2025-04-02 15:47:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c125f0dc-fao5HZ.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/index.html
-[2025-04-02 15:47:30] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:31] [class-ss-fetch-urls-task.php:158] Adding 21 URLs to the queue
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:32] [class-ss-page.php:119] Checking Content Identical:ef4a5b10a93f53e18460f5783bee7d774db0dec8===. Value: FALSE
-[2025-04-02 15:47:32] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 0 de 1 páginas o archivos
-[2025-04-02 15:47:32] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
-[2025-04-02 15:47:32] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
-[2025-04-02 15:47:32] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:69] Total pages: 21; Pages remaining: 20
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/2025/04/02/hola-mundo/
-[2025-04-02 15:47:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 21
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1472cee-BFmRjA.tmp
-[2025-04-02 15:47:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/2025/04/02/hola-mundo/?simply_static_page=29
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/2025/04/02/hola-mundo/?simply_static_page=29
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:103] Filesize: 68589 bytes
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:233] New filename for static page: /2025/04/02/hola-mundo/index.html
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1472cee-BFmRjA.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/2025/04/02/hola-mundo/index.html
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:32] [class-ss-page.php:119] Checking Content Identical:bf02a5386942132323a6b3e384dee79fb6d6d05c===. Value: FALSE
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/author/retrozetaw42/
-[2025-04-02 15:47:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 21
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c14a37dd-p9C4GF.tmp
-[2025-04-02 15:47:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/author/retrozetaw42/?simply_static_page=30
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/author/retrozetaw42/?simply_static_page=30
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:103] Filesize: 49252 bytes
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:233] New filename for static page: /author/retrozetaw42/index.html
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c14a37dd-p9C4GF.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/author/retrozetaw42/index.html
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:32] [class-ss-page.php:119] Checking Content Identical:3f3de56539d2224ba798a778b1885c0b944bd582===. Value: FALSE
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/sin-categoria/
-[2025-04-02 15:47:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 21
-[2025-04-02 15:47:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c14d8607-GyGyMj.tmp
-[2025-04-02 15:47:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/category/sin-categoria/?simply_static_page=31
-[2025-04-02 15:47:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/category/sin-categoria/?simply_static_page=31
-[2025-04-02 15:47:33] [class-ss-url-fetcher.php:103] Filesize: 23514 bytes
-[2025-04-02 15:47:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:33] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/index.html
-[2025-04-02 15:47:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c14d8607-GyGyMj.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/category/sin-categoria/index.html
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:158] Adding 22 URLs to the queue
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:34] [class-ss-page.php:119] Checking Content Identical:059eca3d0a57b89f98b3118295612585bd8d627a===. Value: FALSE
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/2025/04/
-[2025-04-02 15:47:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 21
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c169a53b-wqQIGp.tmp
-[2025-04-02 15:47:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/2025/04/?simply_static_page=32
-[2025-04-02 15:47:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/2025/04/?simply_static_page=32
-[2025-04-02 15:47:34] [class-ss-url-fetcher.php:103] Filesize: 1048 bytes
-[2025-04-02 15:47:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
-[2025-04-02 15:47:34] [class-ss-url-fetcher.php:233] New filename for static page: /2025/04/index.html
-[2025-04-02 15:47:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c169a53b-wqQIGp.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/2025/04/index.html
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
-[2025-04-02 15:47:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:34] [class-ss-page.php:119] Checking Content Identical:9c83d512ecdc73887ac67f9349a0f95684465b33===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/no-thumb.png
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 21
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c171afb4-72XUGL.tmp
-[2025-04-02 15:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/no-thumb.png?simply_static_page=33
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/no-thumb.png?simply_static_page=33
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:103] Filesize: 2645 bytes
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/img/no-thumb.png
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c171afb4-72XUGL.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/img/no-thumb.png
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:35] [class-ss-page.php:119] Checking Content Identical:00b9860742af639d06bc787dfd35b4fd8bdd660b===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery.min.js
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 21
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c173d7b6-XdvIVQ.tmp
-[2025-04-02 15:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery.min.js?simply_static_page=34
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery.min.js?simply_static_page=34
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c173d7b6-XdvIVQ.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-includes/js/jquery/jquery.min.js
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:35] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery-migrate.min.js
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 21
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c177450f-XQ8W1v.tmp
-[2025-04-02 15:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=35
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=35
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c177450f-XQ8W1v.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-includes/js/jquery/jquery-migrate.min.js
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:35] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/superfish.min.js
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 21
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1799f0c-vmH7IR.tmp
-[2025-04-02 15:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/superfish.min.js?simply_static_page=36
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/superfish.min.js?simply_static_page=36
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:103] Filesize: 4474 bytes
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/superfish.min.js
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1799f0c-vmH7IR.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/js/superfish.min.js
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:35] [class-ss-page.php:119] Checking Content Identical:8d703faf3801721ebaf227013cf8597ebf66f0ab===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 21
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c17b35f8-YwbpJe.tmp
-[2025-04-02 15:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js?simply_static_page=37
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js?simply_static_page=37
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:103] Filesize: 8415 bytes
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c17b35f8-YwbpJe.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:35] [class-ss-page.php:119] Checking Content Identical:cdd58421d34de7c63034acb2726a678c55a546f5===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/modernizr.min.js
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 21
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c17c5007-N5DzfE.tmp
-[2025-04-02 15:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/modernizr.min.js?simply_static_page=38
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/modernizr.min.js?simply_static_page=38
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:103] Filesize: 15506 bytes
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/modernizr.min.js
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c17c5007-N5DzfE.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/js/modernizr.min.js
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:35] [class-ss-page.php:119] Checking Content Identical:c381cd0325cdf4fa6700476d69f5542ebd67a533===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 21
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c17de75e-et1meO.tmp
-[2025-04-02 15:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js?simply_static_page=39
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js?simply_static_page=39
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:103] Filesize: 2730 bytes
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
-[2025-04-02 15:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c17de75e-et1meO.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:35] [class-ss-page.php:119] Checking Content Identical:e790c26449c57de298923c686cb3434d1d461a1d===. Value: FALSE
-[2025-04-02 15:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.custom.js
-[2025-04-02 15:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 21
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1803bea-YeASvL.tmp
-[2025-04-02 15:47:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.custom.js?simply_static_page=40
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.custom.js?simply_static_page=40
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:103] Filesize: 2517 bytes
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/jquery.custom.js
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1803bea-YeASvL.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/js/jquery.custom.js
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:36] [class-ss-page.php:119] Checking Content Identical:b6283f33a2d591c423e54c30f539bf40edd7d2b0===. Value: FALSE
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/feed/
-[2025-04-02 15:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 21
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/feed/
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/comments/feed/
-[2025-04-02 15:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 21
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/comments/feed/
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-includes/css/dist/block-library/style.min.css
-[2025-04-02 15:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 21
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1835dac-2UJUCF.tmp
-[2025-04-02 15:47:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-includes/css/dist/block-library/style.min.css?simply_static_page=43
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-includes/css/dist/block-library/style.min.css?simply_static_page=43
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1835dac-2UJUCF.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-includes/css/dist/block-library/style.min.css
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:36] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/style.css
-[2025-04-02 15:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 21
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1851a83-LYpapy.tmp
-[2025-04-02 15:47:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/style.css?simply_static_page=44
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/style.css?simply_static_page=44
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:103] Filesize: 46833 bytes
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/style.css
-[2025-04-02 15:47:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1851a83-LYpapy.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/style.css
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:158] Adding 10 URLs to the queue
-[2025-04-02 15:47:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:36] [class-ss-page.php:119] Checking Content Identical:6bc8afda8512dfc381a70ae7d88cda1632b5c5c7===. Value: FALSE
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
-[2025-04-02 15:47:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 21
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1908ce8-rP54YL.tmp
-[2025-04-02 15:47:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css?simply_static_page=45
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css?simply_static_page=45
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:103] Filesize: 28259 bytes
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1908ce8-rP54YL.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:37] [class-ss-page.php:119] Checking Content Identical:530951398d8ab73c14de0d95e6f1a1737bf5956a===. Value: FALSE
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/responsive.css
-[2025-04-02 15:47:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 21
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c194823f-WlTL5f.tmp
-[2025-04-02 15:47:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/responsive.css?simply_static_page=46
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/responsive.css?simply_static_page=46
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:103] Filesize: 5419 bytes
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/responsive.css
-[2025-04-02 15:47:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c194823f-WlTL5f.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/responsive.css
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:37] [class-ss-page.php:119] Checking Content Identical:4c29492425dbd425a01a70c41fc555f2b24bc99e===. Value: FALSE
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/
-[2025-04-02 15:47:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 21
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/xmlrpc.php
-[2025-04-02 15:47:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 21
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/xmlrpc.php
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2025-04-02 15:47:37] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 1 de 21 páginas o archivos
-[2025-04-02 15:47:37] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
-[2025-04-02 15:47:37] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
-[2025-04-02 15:47:37] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:69] Total pages: 39; Pages remaining: 18
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/sin-categoria/feed/
-[2025-04-02 15:47:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 39
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/category/sin-categoria/feed/
-[2025-04-02 15:47:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/1
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 39
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/1
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/2025/
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 39
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a1810c-kc3JlK.tmp
-[2025-04-02 15:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/2025/?simply_static_page=51
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/2025/?simply_static_page=51
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:103] Filesize: 1037 bytes
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:233] New filename for static page: /2025/index.html
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a1810c-kc3JlK.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/2025/index.html
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:38] [class-ss-page.php:119] Checking Content Identical:badd016abcc46144d29f957ee776baf79bd9977e===. Value: FALSE
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/2025/04/02/
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 39
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a3593d-DepmoE.tmp
-[2025-04-02 15:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/2025/04/02/?simply_static_page=52
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/2025/04/02/?simply_static_page=52
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:103] Filesize: 1065 bytes
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:233] New filename for static page: /2025/04/02/index.html
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a3593d-DepmoE.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/2025/04/02/index.html
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:38] [class-ss-page.php:119] Checking Content Identical:c9c102a9c4915a5b3fafd07e6e63bccd4610676b===. Value: FALSE
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.eot
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 39
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a556ca-A99iS0.tmp
-[2025-04-02 15:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.eot?simply_static_page=53
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.eot?simply_static_page=53
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:103] Filesize: 14935 bytes
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.eot
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a556ca-A99iS0.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.eot
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:38] [class-ss-page.php:119] Checking Content Identical:dbf5c24af76184fa40fcc2b70f3f02e5b61942ab===. Value: FALSE
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.woff
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 39
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a6bbea-txQ3NV.tmp
-[2025-04-02 15:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.woff?simply_static_page=54
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.woff?simply_static_page=54
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:103] Filesize: 17224 bytes
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.woff
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a6bbea-txQ3NV.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.woff
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:38] [class-ss-page.php:119] Checking Content Identical:794ebfc9931591d1cdc057c9beb3803c02e278cf===. Value: FALSE
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.ttf
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 39
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a8589f-l13KJU.tmp
-[2025-04-02 15:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.ttf?simply_static_page=55
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.ttf?simply_static_page=55
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:103] Filesize: 27348 bytes
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.ttf
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1a8589f-l13KJU.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.ttf
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:38] [class-ss-page.php:119] Checking Content Identical:35f0f412693420a0db093d10b4ee43f0e6345386===. Value: FALSE
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.svg
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 39
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1add8d1-qkKQuB.tmp
-[2025-04-02 15:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.svg?simply_static_page=56
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.svg?simply_static_page=56
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:103] Filesize: 40045 bytes
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.svg
-[2025-04-02 15:47:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1add8d1-qkKQuB.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.svg
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:38] [class-ss-page.php:119] Checking Content Identical:127e266b9d4c3d242c1898bbe80afd5aa896e707===. Value: FALSE
-[2025-04-02 15:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/facebook.png
-[2025-04-02 15:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 39
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1b073b7-kJ1eK3.tmp
-[2025-04-02 15:47:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/facebook.png?simply_static_page=57
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/facebook.png?simply_static_page=57
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:103] Filesize: 486 bytes
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/img/facebook.png
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1b073b7-kJ1eK3.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/img/facebook.png
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:39] [class-ss-page.php:119] Checking Content Identical:87f269a67604fc05c865cb3e9a6445f4da99e3ee===. Value: FALSE
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/twitter.png
-[2025-04-02 15:47:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 39
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1b22b97-9s69wM.tmp
-[2025-04-02 15:47:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/twitter.png?simply_static_page=58
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/twitter.png?simply_static_page=58
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:103] Filesize: 864 bytes
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/img/twitter.png
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1b22b97-9s69wM.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/img/twitter.png
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:39] [class-ss-page.php:119] Checking Content Identical:65f215d667bea3f3266027a272e17b5c5c326576===. Value: FALSE
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/google-plus.png
-[2025-04-02 15:47:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 39
-[2025-04-02 15:47:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1b507cb-jcPA16.tmp
-[2025-04-02 15:47:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/google-plus.png?simply_static_page=59
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/google-plus.png?simply_static_page=59
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:39] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1c57fc4-gEROL9.tmp
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/google-plus.png
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/youtube.png
-[2025-04-02 15:47:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 39
-[2025-04-02 15:47:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1cf2ef1-qJj9Ff.tmp
-[2025-04-02 15:47:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/youtube.png?simply_static_page=60
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/youtube.png?simply_static_page=60
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:103] Filesize: 463 bytes
-[2025-04-02 15:47:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/img/youtube.png
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1cf2ef1-qJj9Ff.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/img/youtube.png
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:41] [class-ss-page.php:119] Checking Content Identical:b4d0433151ca2231ae8304ad54e23ae1b89a3568===. Value: FALSE
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/rss.png
-[2025-04-02 15:47:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 39
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1d0e0d1-fjiQt1.tmp
-[2025-04-02 15:47:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/rss.png?simply_static_page=61
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/rss.png?simply_static_page=61
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:103] Filesize: 817 bytes
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/img/rss.png
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1d0e0d1-fjiQt1.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/img/rss.png
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:41] [class-ss-page.php:119] Checking Content Identical:d8261b052ff8f05ffd401d411c26af806029595e===. Value: FALSE
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/instagram.png
-[2025-04-02 15:47:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 39
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1d1fb34-an2oq5.tmp
-[2025-04-02 15:47:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/instagram.png?simply_static_page=62
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img/instagram.png?simply_static_page=62
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:103] Filesize: 1346 bytes
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/img/instagram.png
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1d1fb34-an2oq5.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/img/instagram.png
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:41] [class-ss-page.php:119] Checking Content Identical:86f4dfc1773b97ea469cbdc574ce074f77796528===. Value: FALSE
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.eot
-[2025-04-02 15:47:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 39
-[2025-04-02 15:47:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1d2cf98-yTDBQh.tmp
-[2025-04-02 15:47:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.eot?simply_static_page=63
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.eot?simply_static_page=63
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1da4ef3-ONVFcS.tmp
-[2025-04-02 15:47:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.eot
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.ttf
-[2025-04-02 15:47:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 39
-[2025-04-02 15:47:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1e24db3-CPpZOf.tmp
-[2025-04-02 15:47:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.ttf?simply_static_page=64
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.ttf?simply_static_page=64
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1eb7402-Ve2DZw.tmp
-[2025-04-02 15:47:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.ttf
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.svg
-[2025-04-02 15:47:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 39
-[2025-04-02 15:47:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1f4fb65-39VMa6.tmp
-[2025-04-02 15:47:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.svg?simply_static_page=65
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.svg?simply_static_page=65
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c1fbd781-doirXv.tmp
-[2025-04-02 15:47:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/Genericons.svg
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:103] Filesize: 23148 bytes
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2025-04-02 15:47:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/css/slicknav.css
-[2025-04-02 15:47:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 39
-[2025-04-02 15:47:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c20766c3-4wllAI.tmp
-[2025-04-02 15:47:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/css/slicknav.css?simply_static_page=66
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/css/slicknav.css?simply_static_page=66
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:103] Filesize: 3434 bytes
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/css/slicknav.css
-[2025-04-02 15:47:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67ed5c20766c3-4wllAI.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849/wp-content/themes/vt-blogging/assets/css/slicknav.css
-[2025-04-02 15:47:44] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2025-04-02 15:47:44] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2025-04-02 15:47:44] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2025-04-02 15:47:44] [class-ss-page.php:119] Checking Content Identical:85e0a0c93be6c8e161067ec12f0641aefe01fd60===. Value: FALSE
-[2025-04-02 15:47:44] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 21 de 39 páginas o archivos
-[2025-04-02 15:47:44] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
-[2025-04-02 15:47:44] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
-[2025-04-02 15:47:44] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
-[2025-04-02 15:47:44] [class-ss-fetch-urls-task.php:69] Total pages: 39; Pages remaining: 0
-[2025-04-02 15:47:44] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 39 de 39 páginas o archivos
-[2025-04-02 15:47:44] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
-[2025-04-02 15:47:44] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
-[2025-04-02 15:47:44] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
-[2025-04-02 15:47:44] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/04/02/hola-mundo/index.html
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/2025/04/02/hola-mundo
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /author/retrozetaw42/index.html
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/author/retrozetaw42
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/sin-categoria/index.html
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/category/sin-categoria
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/04/index.html
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/2025/04
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/img/no-thumb.png
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-includes/js/jquery
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-includes/js/jquery
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/superfish.min.js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/modernizr.min.js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
-[2025-04-02 15:47:44] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/jquery.custom.js
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-includes/css/dist/block-library
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/style.css
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/responsive.css
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/index.html
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/2025
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/04/02/index.html
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/2025/04/02
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.eot
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.woff
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.ttf
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons-regular-webfont.svg
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/img/facebook.png
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/img/twitter.png
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/img/youtube.png
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/img/rss.png
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/img/instagram.png
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/img
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/css/slicknav.css
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/css
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:29. Processed Pages: 29
-[2025-04-02 15:47:45] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferidos 29 de 29 archivos
-[2025-04-02 15:47:45] [trait-can-process-pages.php:114] Total pages: 29; Pages remaining: 0
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
-[2025-04-02 15:47:45] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743608849\404\index.html
-[2025-04-02 15:47:45] [class-ss-task.php:44] Status message: [destination_url] URL de destino: <a href="https://retroemula2.github.io/" target="_blank">https://retroemula2.github.io/</a>
-[2025-04-02 15:47:45] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
-[2025-04-02 15:47:45] [class-ss-archive-creation-job.php:172] Current task: wrapup
-[2025-04-02 15:47:45] [class-ss-archive-creation-job.php:182] Performing task: wrapup
-[2025-04-02 15:47:45] [class-ss-wrapup-task.php:23] Deleting temporary files
-[2025-04-02 15:47:45] [class-ss-task.php:44] Status message: [wrapup] Terminando
-[2025-04-02 15:47:45] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
-[2025-04-02 15:47:45] [class-ss-archive-creation-job.php:244] Completing the job
-[2025-04-02 15:47:45] [class-ss-archive-creation-job.php:371] Status message: [done] ¡Hecho! Ha finalizado en 00:00:16
+[2025-04-02 20:50:50] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-04-02 20:50:50] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-04-02 20:50:50] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-04-02 20:50:51] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-04-02 20:50:51] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-04-02 20:50:51] [class-ss-task.php:44] Status message: [setup] Configurar
+[2025-04-02 20:50:51] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050\
+[2025-04-02 20:50:51] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/retroemula2.github.io/
+[2025-04-02 20:50:51] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-04-02 20:50:51] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-02 20:50:51] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-02 20:50:51] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-04-02 20:50:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/
+[2025-04-02 20:50:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-04-02 20:50:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:50:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda32bd701a-bUfOgZ.tmp
+[2025-04-02 20:50:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/?simply_static_page=67
+[2025-04-02 20:50:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/?simply_static_page=67
+[2025-04-02 20:50:52] [class-ss-url-fetcher.php:103] Filesize: 37731 bytes
+[2025-04-02 20:50:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:50:52] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-04-02 20:50:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda32bd701a-bUfOgZ.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/index.html
+[2025-04-02 20:50:52] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:50:53] [class-ss-fetch-urls-task.php:158] Adding 31 URLs to the queue
+[2025-04-02 20:50:54] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:50:54] [class-ss-page.php:119] Checking Content Identical:4f974687f2e23b256d0c7026431100806db2914e===. Value: FALSE
+[2025-04-02 20:50:54] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 0 de 1 páginas o archivos
+[2025-04-02 20:50:55] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-02 20:50:55] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-02 20:50:55] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-02 20:50:55] [class-ss-fetch-urls-task.php:69] Total pages: 31; Pages remaining: 30
+[2025-04-02 20:50:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/nes-captain-tsubasa-vol-1-rom/
+[2025-04-02 20:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 31
+[2025-04-02 20:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda32f233ec-OSYdBQ.tmp
+[2025-04-02 20:50:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/nes-captain-tsubasa-vol-1-rom/?simply_static_page=68
+[2025-04-02 20:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/nes-captain-tsubasa-vol-1-rom/?simply_static_page=68
+[2025-04-02 20:50:55] [class-ss-url-fetcher.php:103] Filesize: 40933 bytes
+[2025-04-02 20:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /nes-captain-tsubasa-vol-1-rom/index.html
+[2025-04-02 20:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda32f233ec-OSYdBQ.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/nes-captain-tsubasa-vol-1-rom/index.html
+[2025-04-02 20:50:55] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:50:56] [class-ss-fetch-urls-task.php:158] Adding 32 URLs to the queue
+[2025-04-02 20:50:56] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:50:56] [class-ss-page.php:119] Checking Content Identical:809510b453a43df5f2c1d650fa39c32fa9bd29b0===. Value: FALSE
+[2025-04-02 20:50:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/1988/
+[2025-04-02 20:50:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 31
+[2025-04-02 20:50:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33058824-ZDntxW.tmp
+[2025-04-02 20:50:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/category/1988/?simply_static_page=69
+[2025-04-02 20:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/category/1988/?simply_static_page=69
+[2025-04-02 20:50:57] [class-ss-url-fetcher.php:103] Filesize: 33286 bytes
+[2025-04-02 20:50:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:50:57] [class-ss-url-fetcher.php:233] New filename for static page: /category/1988/index.html
+[2025-04-02 20:50:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33058824-ZDntxW.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/category/1988/index.html
+[2025-04-02 20:50:57] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:50:57] [class-ss-fetch-urls-task.php:158] Adding 30 URLs to the queue
+[2025-04-02 20:50:57] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:50:57] [class-ss-page.php:119] Checking Content Identical:5457b7b15481c4cad7afde7d4b158648c1c1a7bc===. Value: FALSE
+[2025-04-02 20:50:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/1992/
+[2025-04-02 20:50:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 31
+[2025-04-02 20:50:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:50:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3319bfaa-VUdarI.tmp
+[2025-04-02 20:50:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/category/1992/?simply_static_page=70
+[2025-04-02 20:50:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/category/1992/?simply_static_page=70
+[2025-04-02 20:50:58] [class-ss-url-fetcher.php:103] Filesize: 33286 bytes
+[2025-04-02 20:50:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:50:58] [class-ss-url-fetcher.php:233] New filename for static page: /category/1992/index.html
+[2025-04-02 20:50:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3319bfaa-VUdarI.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/category/1992/index.html
+[2025-04-02 20:50:58] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:50:58] [class-ss-fetch-urls-task.php:158] Adding 30 URLs to the queue
+[2025-04-02 20:50:58] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:50:58] [class-ss-page.php:119] Checking Content Identical:dcb79583ad1d1c7c3d286e3a828e3d89429c8047===. Value: FALSE
+[2025-04-02 20:50:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/deportes/
+[2025-04-02 20:50:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 31
+[2025-04-02 20:50:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:50:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda332abd5f-sR7aDb.tmp
+[2025-04-02 20:50:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/category/deportes/?simply_static_page=71
+[2025-04-02 20:50:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/category/deportes/?simply_static_page=71
+[2025-04-02 20:50:59] [class-ss-url-fetcher.php:103] Filesize: 33320 bytes
+[2025-04-02 20:50:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:50:59] [class-ss-url-fetcher.php:233] New filename for static page: /category/deportes/index.html
+[2025-04-02 20:50:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda332abd5f-sR7aDb.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/category/deportes/index.html
+[2025-04-02 20:50:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:50:59] [class-ss-fetch-urls-task.php:158] Adding 30 URLs to the queue
+[2025-04-02 20:50:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:50:59] [class-ss-page.php:119] Checking Content Identical:c939a41aa3d4c521abcd47ae7a4aedaf8c746159===. Value: FALSE
+[2025-04-02 20:50:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/futbol/
+[2025-04-02 20:50:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 31
+[2025-04-02 20:50:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:50:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda333859df-PVo7Bl.tmp
+[2025-04-02 20:50:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/category/futbol/?simply_static_page=72
+[2025-04-02 20:50:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/category/futbol/?simply_static_page=72
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:103] Filesize: 33313 bytes
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:233] New filename for static page: /category/futbol/index.html
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda333859df-PVo7Bl.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/category/futbol/index.html
+[2025-04-02 20:51:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:00] [class-ss-fetch-urls-task.php:158] Adding 30 URLs to the queue
+[2025-04-02 20:51:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:00] [class-ss-page.php:119] Checking Content Identical:9bd330628e10c2135489dfe0ed42b41b9f13f3a9===. Value: FALSE
+[2025-04-02 20:51:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/nes/
+[2025-04-02 20:51:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 31
+[2025-04-02 20:51:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3345ef34-yjEIGR.tmp
+[2025-04-02 20:51:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/category/nes/?simply_static_page=73
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/category/nes/?simply_static_page=73
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:103] Filesize: 33295 bytes
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:233] New filename for static page: /category/nes/index.html
+[2025-04-02 20:51:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3345ef34-yjEIGR.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/category/nes/index.html
+[2025-04-02 20:51:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:158] Adding 30 URLs to the queue
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:01] [class-ss-page.php:119] Checking Content Identical:b085299986cf3a16e75507478b87b4801716f7a2===. Value: FALSE
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/rpg/
+[2025-04-02 20:51:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 31
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3352ac61-9Wqlw5.tmp
+[2025-04-02 20:51:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/category/rpg/?simply_static_page=74
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/category/rpg/?simply_static_page=74
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:103] Filesize: 33295 bytes
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:233] New filename for static page: /category/rpg/index.html
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3352ac61-9Wqlw5.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/category/rpg/index.html
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:158] Adding 30 URLs to the queue
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:01] [class-ss-page.php:119] Checking Content Identical:1937fe197ee34f083ac1d155e99135655ced05b0===. Value: FALSE
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/uploads/2025/04/nct01.webp
+[2025-04-02 20:51:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 31
+[2025-04-02 20:51:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda335eb9bc-jo0gOG.tmp
+[2025-04-02 20:51:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/uploads/2025/04/nct01.webp?simply_static_page=75
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/uploads/2025/04/nct01.webp?simply_static_page=75
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:103] Filesize: 25606 bytes
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/04/nct01.webp
+[2025-04-02 20:51:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda335eb9bc-jo0gOG.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/uploads/2025/04/nct01.webp
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:d8681e6b86001d187bf9517660c4c2ae388ad58a===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery.min.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33611123-oSTJhj.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery.min.js?simply_static_page=76
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery.min.js?simply_static_page=76
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33611123-oSTJhj.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-includes/js/jquery/jquery.min.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3362c5fb-W43gE7.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=77
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=77
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3362c5fb-W43gE7.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33643a1e-shrTx2.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?simply_static_page=78
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?simply_static_page=78
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 23419 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33643a1e-shrTx2.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:9d2d2b7172df4a43516870b395aad0008cc7bad2===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/post.min.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3365c067-agIkuK.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/post.min.js?simply_static_page=79
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/post.min.js?simply_static_page=79
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 4400 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/post.min.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3365c067-agIkuK.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/post.min.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:6ee491eeb694131020cceb21661c41755618d108===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/superfish.min.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3367550e-jn8Hx9.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/superfish.min.js?simply_static_page=80
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/superfish.min.js?simply_static_page=80
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 4474 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/superfish.min.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3367550e-jn8Hx9.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/assets/js/superfish.min.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:8d703faf3801721ebaf227013cf8597ebf66f0ab===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33688793-GNqPes.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js?simply_static_page=81
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js?simply_static_page=81
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 8415 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33688793-GNqPes.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:cdd58421d34de7c63034acb2726a678c55a546f5===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/modernizr.min.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3369e00a-81L6BW.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/modernizr.min.js?simply_static_page=82
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/modernizr.min.js?simply_static_page=82
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 15506 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/modernizr.min.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3369e00a-81L6BW.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/assets/js/modernizr.min.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:c381cd0325cdf4fa6700476d69f5542ebd67a533===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda336b12e5-ZaQpop.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js?simply_static_page=83
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js?simply_static_page=83
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 2730 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda336b12e5-ZaQpop.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:e790c26449c57de298923c686cb3434d1d461a1d===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.custom.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda336c45ac-48kHs5.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.custom.js?simply_static_page=84
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js/jquery.custom.js?simply_static_page=84
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 2517 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/js/jquery.custom.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda336c45ac-48kHs5.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/assets/js/jquery.custom.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:b6283f33a2d591c423e54c30f539bf40edd7d2b0===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/visual-footer-credit-remover/script.js
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda336d9df1-GsckOE.tmp
+[2025-04-02 20:51:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/visual-footer-credit-remover/script.js?simply_static_page=85
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/visual-footer-credit-remover/script.js?simply_static_page=85
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:103] Filesize: 140 bytes
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/visual-footer-credit-remover/script.js
+[2025-04-02 20:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda336d9df1-GsckOE.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/visual-footer-credit-remover/script.js
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:02] [class-ss-page.php:119] Checking Content Identical:39f94c1eec113de9a336cdafe32eb211ff18b98e===. Value: FALSE
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/feed/
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 31
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/feed/
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/comments/feed/
+[2025-04-02 20:51:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 31
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/comments/feed/
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css
+[2025-04-02 20:51:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 31
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3370cf19-PWbmop.tmp
+[2025-04-02 20:51:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?simply_static_page=88
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?simply_static_page=88
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:103] Filesize: 85705 bytes
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3370cf19-PWbmop.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:03] [class-ss-page.php:119] Checking Content Identical:34531ebd68010c6d1f19cd2505f1ddb48f95df16===. Value: FALSE
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-includes/css/dist/block-library/style.min.css
+[2025-04-02 20:51:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 31
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda337af5fe-nMWmQ4.tmp
+[2025-04-02 20:51:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-includes/css/dist/block-library/style.min.css?simply_static_page=89
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-includes/css/dist/block-library/style.min.css?simply_static_page=89
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda337af5fe-nMWmQ4.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-includes/css/dist/block-library/style.min.css
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:03] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/uploads/uag-plugin/assets/0/uag-css-21-1743627052.css
+[2025-04-02 20:51:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 31
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda337cebaf-SBPVJS.tmp
+[2025-04-02 20:51:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/uploads/uag-plugin/assets/0/uag-css-21-1743627052.css?simply_static_page=90
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/uploads/uag-plugin/assets/0/uag-css-21-1743627052.css?simply_static_page=90
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:103] Filesize: 16399 bytes
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/0/uag-css-21-1743627052.css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda337cebaf-SBPVJS.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/uploads/uag-plugin/assets/0/uag-css-21-1743627052.css
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:03] [class-ss-page.php:119] Checking Content Identical:e9fcd0a867bbb06bc85f33f81d40cbb81417ae47===. Value: FALSE
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/style.css
+[2025-04-02 20:51:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 31
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda337e857e-V0rIeB.tmp
+[2025-04-02 20:51:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/style.css?simply_static_page=91
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/style.css?simply_static_page=91
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:103] Filesize: 47492 bytes
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/style.css
+[2025-04-02 20:51:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda337e857e-V0rIeB.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/style.css
+[2025-04-02 20:51:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:04] [class-ss-page.php:119] Checking Content Identical:6bc8afda8512dfc381a70ae7d88cda1632b5c5c7===. Value: FALSE
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
+[2025-04-02 20:51:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 31
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3380f75c-rTGoj5.tmp
+[2025-04-02 20:51:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css?simply_static_page=92
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css?simply_static_page=92
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:103] Filesize: 28668 bytes
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3380f75c-rTGoj5.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:04] [class-ss-page.php:119] Checking Content Identical:530951398d8ab73c14de0d95e6f1a1737bf5956a===. Value: FALSE
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/responsive.css
+[2025-04-02 20:51:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 31
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda3382cd09-IRBXV6.tmp
+[2025-04-02 20:51:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/responsive.css?simply_static_page=93
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/themes/vt-blogging/responsive.css?simply_static_page=93
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:103] Filesize: 5479 bytes
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vt-blogging/responsive.css
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda3382cd09-IRBXV6.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/themes/vt-blogging/responsive.css
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:04] [class-ss-page.php:119] Checking Content Identical:4c29492425dbd425a01a70c41fc555f2b24bc99e===. Value: FALSE
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/
+[2025-04-02 20:51:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 31
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/pages/21
+[2025-04-02 20:51:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 31
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/pages/21
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/xmlrpc.php
+[2025-04-02 20:51:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 31
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/xmlrpc.php
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/oembed/1.0/embed
+[2025-04-02 20:51:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 31
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/oembed/1.0/embed
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:04] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 1 de 31 páginas o archivos
+[2025-04-02 20:51:04] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-02 20:51:04] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-02 20:51:04] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:69] Total pages: 52; Pages remaining: 21
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/author/retrozetaw42/
+[2025-04-02 20:51:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 52
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda338e05f6-udOq30.tmp
+[2025-04-02 20:51:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/author/retrozetaw42/?simply_static_page=98
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/author/retrozetaw42/?simply_static_page=98
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:103] Filesize: 49254 bytes
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:233] New filename for static page: /author/retrozetaw42/index.html
+[2025-04-02 20:51:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda338e05f6-udOq30.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/author/retrozetaw42/index.html
+[2025-04-02 20:51:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:05] [class-ss-page.php:119] Checking Content Identical:3f3de56539d2224ba798a778b1885c0b944bd582===. Value: FALSE
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-includes/js/comment-reply.min.js
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33918db5-cS2YRk.tmp
+[2025-04-02 20:51:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=99
+[2025-04-02 20:51:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=99
+[2025-04-02 20:51:05] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-04-02 20:51:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-02 20:51:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2025-04-02 20:51:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33918db5-cS2YRk.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-includes/js/comment-reply.min.js
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:05] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/nes-captain-tsubasa-vol-1-rom/feed/
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/nes-captain-tsubasa-vol-1-rom/feed/
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/posts/14
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/posts/14
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/1988/feed/
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/category/1988/feed/
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/2
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/2
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/1992/feed/
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/category/1992/feed/
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/3
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/3
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/deportes/feed/
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/category/deportes/feed/
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/4
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/4
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/futbol/feed/
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/category/futbol/feed/
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/5
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/5
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/nes/feed/
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/category/nes/feed/
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/6
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 52
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/6
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/category/rpg/feed/
+[2025-04-02 20:51:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 52
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/category/rpg/feed/
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/7
+[2025-04-02 20:51:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 52
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/retroemula2.github.io/wp-json/wp/v2/categories/7
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.eot
+[2025-04-02 20:51:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 52
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a22167-Jmsn9y.tmp
+[2025-04-02 20:51:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.eot?simply_static_page=114
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.eot?simply_static_page=114
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:103] Filesize: 20335 bytes
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.eot
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a22167-Jmsn9y.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.eot
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:06] [class-ss-page.php:119] Checking Content Identical:f3a9a3b609133c3d21d6b42abbf7f43bd111df72===. Value: FALSE
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff2
+[2025-04-02 20:51:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 52
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a37a70-6lPXz0.tmp
+[2025-04-02 20:51:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff2?simply_static_page=115
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff2?simply_static_page=115
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:103] Filesize: 18028 bytes
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff2
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a37a70-6lPXz0.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff2
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:06] [class-ss-page.php:119] Checking Content Identical:ca35b697d99cae4d1b60f2d60fcd37771987eb07===. Value: FALSE
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff
+[2025-04-02 20:51:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 52
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a47773-MtoTQR.tmp
+[2025-04-02 20:51:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff?simply_static_page=116
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff?simply_static_page=116
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:103] Filesize: 23320 bytes
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a47773-MtoTQR.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:06] [class-ss-page.php:119] Checking Content Identical:22037a3455914e5662fa51a596677bdb329e2c5c===. Value: FALSE
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.ttf
+[2025-04-02 20:51:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 52
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a52dff-WpP8Ox.tmp
+[2025-04-02 20:51:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.ttf?simply_static_page=117
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.ttf?simply_static_page=117
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:103] Filesize: 41280 bytes
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.ttf
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a52dff-WpP8Ox.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.ttf
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:06] [class-ss-page.php:119] Checking Content Identical:aafafdc09404c4aa4447d7e898a2183def9cc1b1===. Value: FALSE
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.svg
+[2025-04-02 20:51:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 52
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a604d0-xkFGay.tmp
+[2025-04-02 20:51:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.svg?simply_static_page=118
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.svg?simply_static_page=118
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:103] Filesize: 62927 bytes
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.svg
+[2025-04-02 20:51:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ADMINI~1\AppData\Local\Temp/67eda33a604d0-xkFGay.tmp to C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.svg
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-02 20:51:06] [class-ss-page.php:119] Checking Content Identical:3ef91859cbec165ac97df6957b176f69e8d6a04d===. Value: FALSE
+[2025-04-02 20:51:06] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 31 de 52 páginas o archivos
+[2025-04-02 20:51:06] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-02 20:51:06] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-02 20:51:06] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-02 20:51:06] [class-ss-fetch-urls-task.php:69] Total pages: 52; Pages remaining: 0
+[2025-04-02 20:51:06] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 52 de 52 páginas o archivos
+[2025-04-02 20:51:06] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-04-02 20:51:06] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-04-02 20:51:06] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-04-02 20:51:06] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /nes-captain-tsubasa-vol-1-rom/index.html
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/nes-captain-tsubasa-vol-1-rom
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/1988/index.html
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/category/1988
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/1992/index.html
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/category/1992
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/deportes/index.html
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/category/deportes
+[2025-04-02 20:51:06] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/futbol/index.html
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/category/futbol
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/nes/index.html
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/category/nes
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/rpg/index.html
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/category/rpg
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/04/nct01.webp
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/uploads/2025/04
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-includes/js/jquery
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-includes/js/jquery
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/post.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/superfish.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/jquery.slicknav.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/modernizr.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/html5shiv.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/js/jquery.custom.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/visual-footer-credit-remover/script.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/visual-footer-credit-remover
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-includes/css/dist/block-library
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/uag-plugin/assets/0/uag-css-21-1743627052.css
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/uploads/uag-plugin/assets/0
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/style.css
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/assets/fonts/genericons/genericons.css
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging/assets/fonts/genericons
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/vt-blogging/responsive.css
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/themes/vt-blogging
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /author/retrozetaw42/index.html
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/author/retrozetaw42
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/comment-reply.min.js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-includes/js
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.eot
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff2
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.ttf
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.svg
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/retroemula2.github.io/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:32. Processed Pages: 32
+[2025-04-02 20:51:07] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferidos 32 de 32 archivos
+[2025-04-02 20:51:07] [trait-can-process-pages.php:114] Total pages: 32; Pages remaining: 0
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-04-02 20:51:07] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\xampp\htdocs\retroemula2.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1743627050\404\index.html
+[2025-04-02 20:51:07] [class-ss-task.php:44] Status message: [destination_url] URL de destino: <a href="https://retroemula2.github.io/" target="_blank">https://retroemula2.github.io/</a>
+[2025-04-02 20:51:07] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-04-02 20:51:08] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-04-02 20:51:08] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-04-02 20:51:08] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-04-02 20:51:08] [class-ss-task.php:44] Status message: [wrapup] Terminando
+[2025-04-02 20:51:08] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-04-02 20:51:08] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-04-02 20:51:08] [class-ss-archive-creation-job.php:371] Status message: [done] ¡Hecho! Ha finalizado en 00:00:18

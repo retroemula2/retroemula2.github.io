@@ -224,3 +224,16 @@ $vt_blogging_version = $theme['Version'];
 if ( is_admin() ) {
 	require get_template_directory() . '/inc/class-vt-blogging-admin.php';
 }
+
+// Content Views Pro - entradas relacionadas
+add_filter( 'the_content', 'cvp_theme_auto_show_related_posts', 999 );
+function cvp_theme_auto_show_related_posts( $content ) {
+if ( is_single() ) {
+ob_start();
+echo '<h2>Entradas relacionadas</h2>';
+echo do_shortcode( '[pt_view id="dcde0d4re7" cat="GET_CURRENT"]' );
+$content .= ob_get_clean();
+}
+return $content;
+}
+// Content Views Pro - entradas relacionadas
