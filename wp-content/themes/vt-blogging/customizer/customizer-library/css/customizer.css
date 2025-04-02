@@ -1,0 +1,38 @@
+.customize-control-kirki .description {
+    font-weight: 400 !important;
+}
+
+#customize-controls .control-section-vt-blogging-upsell .accordion-section-title:hover,
+#customize-controls .control-section-vt-blogging-upsell .accordion-section-title:focus {
+	background-color: #ffffff;
+}
+
+.control-section-vt-blogging-upsell .accordion-section-title .button {
+	margin-top: -3px;
+	margin-left: 8px;
+}
+
+.rtl .control-section-vt-blogging-upsell .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+#accordion-section-vt-blogging-upsell a.button.button-secondary {
+    background: #00A388;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+#customize-control-site-layout,
+#customize-control-archive-page-layout,
+#customize-control-entry-excerpt-length,
+#customize-control-vt-blogging-pagination-bg-color {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0 0 20px;
+    margin-bottom: 15px;
+}
+
+.customize-control input[type="number"] {
+	width: 30%;
+}

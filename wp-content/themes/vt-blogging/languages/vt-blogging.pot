@@ -1,0 +1,733 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VT Blogging\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 08:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.1"
+
+#: inc/class-vt-blogging-admin.php:396
+msgid "1"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:416
+msgid "10"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:397 inc/class-vt-blogging-admin.php:405
+#: inc/class-vt-blogging-admin.php:415
+msgid "2"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:401
+msgid "35+ color options"
+msgstr ""
+
+#: 404.php:17
+msgid "404 Error - Page Not Found"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:400 inc/class-vt-blogging-admin.php:406
+#: inc/class-vt-blogging-admin.php:410
+msgid "5"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:421
+msgid "600+"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:411
+msgid "9+"
+msgstr ""
+
+#: header.php:56
+#, php-format
+msgid "Add menu for theme location: Primary Menu."
+msgstr ""
+
+#. $this->id_base
+#: inc/widgets/widget-popular.php:29
+msgid "[VT] Popular Posts"
+msgstr ""
+
+#: inc/widgets/widget-popular.php:23
+msgid "A widget that displays popular posts by comments with thumbnails."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:36 inc/class-vt-blogging-admin.php:119
+msgid "About"
+msgstr ""
+
+#: inc/widgets/widget-about.php:111
+msgid "About Description:"
+msgstr ""
+
+#: inc/widgets/widget-about.php:15
+msgid "About Widget with your image and description."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: functions.php:148 functions.php:157 functions.php:166 functions.php:175
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:414
+msgid "Additional Custom Widget"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:206
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: template-parts/content-single.php:109
+msgid "Also Like"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:444
+msgid "Animation"
+msgstr ""
+
+#: customizer/customizer-options.php:74
+msgid "Archive Page Layout"
+msgstr ""
+
+#: sidebar.php:36
+msgid "Archives"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:450
+msgid "Blog & Post Settings"
+msgstr ""
+
+#: customizer/customizer-options.php:60
+msgid "Blog Page Layout"
+msgstr ""
+
+#: customizer/customizer-library/extensions/class-upsell-customize.php:77
+msgid "Buy Pro"
+msgstr ""
+
+#. %s: Widgets Panel
+#: sidebar.php:26
+#, php-format
+msgid ""
+"By default, it will load Search and Archives widgets as shown below. You can "
+"add widget to this area by visiting your Widgets Panel which will replace "
+"default widgets."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:171
+msgid "Changelog"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:81
+msgid "Cheatin' huh?"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:251
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:399
+msgid "Color Options"
+msgstr ""
+
+#: customizer/customizer-options.php:129
+msgid "Color Settings"
+msgstr ""
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural " Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-vt-blogging-admin.php:344
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:240
+msgid "Contact Page"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:480
+msgid "Content Demo"
+msgstr ""
+
+#. %s: Name of current post.
+#: template-parts/content-single.php:44
+#, php-format
+msgid "Continue reading"
+msgstr ""
+
+#: inc/template-tags.php:129
+#, php-format
+msgid "Copyright  . All rights reserved."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:395
+msgid "Custom Menu"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:475
+msgid "Custom Scripts Editor"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:208
+msgid "Customize"
+msgstr ""
+
+#: customizer/customizer-options.php:87
+msgid "Default: 38"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:95
+msgid "Dismiss"
+msgstr ""
+
+#: customizer/customizer-options.php:116
+msgid "Display \"back to top\" icon link on the site bottom"
+msgstr ""
+
+#: customizer/customizer-options.php:100
+msgid "Display author box on single posts"
+msgstr ""
+
+#: customizer/customizer-options.php:92
+msgid "Display header search form"
+msgstr ""
+
+#: inc/widgets/widget-popular.php:174
+msgid "Display post date?"
+msgstr ""
+
+#: customizer/customizer-options.php:108
+msgid "Display related posts on single posts"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:213 inc/class-vt-blogging-admin.php:216
+msgid "Documentation"
+msgstr ""
+
+#. %s: Name of current post
+#: template-parts/content-page.php:41 template-parts/content-single.php:62
+#, php-format
+msgid "Edit"
+msgstr ""
+
+#: inc/widgets/widget-about.php:48
+msgid "Facebook"
+msgstr ""
+
+#: inc/widgets/widget-about.php:116
+msgid "Facebook:"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:373
+msgid "Features"
+msgstr ""
+
+#: customizer/customizer-options.php:35
+msgid "Fixed Layout"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:439
+msgid "Font Settings"
+msgstr ""
+
+#: functions.php:155
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:164
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:173
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:470
+msgid "Footer Copyright Editor"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:486
+msgid "Forum"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:163
+msgid "Free Vs Pro"
+msgstr ""
+
+#. Name of the template
+msgid "Full-width (No Sidebar)"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:351
+msgid "Fully Compatible in Pro Version"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:98
+msgid "Get started with VT Blogging Lite"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:270
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:270
+msgid "Go to Dashboard Home"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:419
+msgid "Google Fonts Option"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:237
+msgid "Got sales related question?"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:221
+msgid "Got theme support question?"
+msgstr ""
+
+#: customizer/customizer-options.php:145
+msgid "Header Background"
+msgstr ""
+
+#: customizer/customizer-options.php:153
+msgid "Header Search Background"
+msgstr ""
+
+#: category.php:20
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://volthemes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://volthemes.com/theme/vt-blogging/"
+msgstr ""
+
+#: inc/widgets/widget-about.php:96
+msgid "Image ALT:"
+msgstr ""
+
+#: inc/widgets/widget-about.php:106
+msgid "Image Height:"
+msgstr ""
+
+#: inc/widgets/widget-about.php:91
+msgid "Image URL:"
+msgstr ""
+
+#: inc/widgets/widget-about.php:101
+msgid "Image Width:"
+msgstr ""
+
+#: layouts/blog-layout-1.php:19 layouts/blog-layout-2.php:21
+#: template-parts/content-loop.php:13 template-parts/content-single.php:25
+msgid "in"
+msgstr ""
+
+#: inc/widgets/widget-about.php:51
+msgid "Instagram"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:465
+msgid "Instagram Feed"
+msgstr ""
+
+#: inc/widgets/widget-about.php:131
+msgid "Instagram:"
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr ""
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:404
+msgid "Layout option"
+msgstr ""
+
+#: customizer/customizer-options.php:54 customizer/customizer-options.php:68
+msgid "List Layout"
+msgstr ""
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:229
+msgid "Need more features?"
+msgstr ""
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/widgets/widget-popular.php:87
+msgid "No Picture"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing found"
+msgstr ""
+
+#: inc/widgets/widget-popular.php:166
+msgid "Number of posts to show"
+msgstr ""
+
+#: customizer/customizer-options.php:83
+msgid "Number of words to show on excerpt"
+msgstr ""
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:455
+msgid "Override Theme Text"
+msgstr ""
+
+#: template-parts/content-page.php:29 template-parts/content-single.php:49
+msgid "Pages:"
+msgstr ""
+
+#: customizer/customizer-options.php:161
+msgid "Pagination Background Color"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search..."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:222
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:238
+msgid "Please send it via our sales contact page."
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:214
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: inc/widgets/widget-popular.php:149
+msgid "Popular Posts"
+msgstr ""
+
+#: layouts/blog-layout-1.php:17 layouts/blog-layout-2.php:19
+#: template-parts/content-loop.php:11 template-parts/content-single.php:23
+msgid "Posted by"
+msgstr ""
+
+#: inc/template-tags.php:129
+#, php-format
+msgid "Powered by"
+msgstr ""
+
+#: customizer/customizer-options.php:137
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:140
+msgid "Rate this theme"
+msgstr ""
+
+#: layouts/blog-layout-1.php:40 layouts/blog-layout-2.php:32
+#: template-parts/content-loop.php:29 template-parts/content-search.php:27
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid "Ready to publish your first post? Get started here."
+msgstr ""
+
+#: customizer/customizer-options.php:34
+msgid "Responsive Layout"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:267
+msgid "Return to Dashboard Updates"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:267
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/widgets/widget-about.php:52
+msgid "RSS"
+msgstr ""
+
+#: inc/widgets/widget-about.php:136
+msgid "RSS Feed:"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:390
+msgid "RTL Support"
+msgstr ""
+
+#: sidebar.php:32
+msgid "Search"
+msgstr ""
+
+#. %s: for the search keyword
+#: search.php:21
+#, php-format
+msgid "Search results for:"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:380
+msgid "SEO Friendly"
+msgstr ""
+
+#: functions.php:146
+msgid "Sidebar"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: customizer/customizer-options.php:46
+msgid "Site Layout"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:424
+msgid "Slider"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:409
+msgid "Social Icons"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"Sorry, but it looks like nothing was found at this location. You may try one "
+"of the links below or do a search."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: customizer/customizer-options.php:55 customizer/customizer-options.php:69
+msgid "Standard Blog Layout"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:429
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:434
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:485
+msgid "Support"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:224
+msgid "Support Forum"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:487
+msgid "Support Forum + Emails/Support Ticket"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:155
+msgid "Supported Plugins"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:205
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:134
+msgid "Theme Info"
+msgstr ""
+
+#: customizer/customizer-options.php:40
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/template-tags.php:129
+#, php-format
+msgid "Theme:  by ."
+msgstr ""
+
+#: sidebar.php:23
+msgid "This is the Primary Sidebar Widget Area"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:341
+msgid "This theme recommends following plugins:"
+msgstr ""
+
+#: inc/widgets/widget-popular.php:159
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-about.php:86
+msgid "Title:"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:247 inc/class-vt-blogging-admin.php:255
+msgid "Translate"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:385
+msgid "Translation Ready"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:55
+#, php-format
+msgid "Try looking in the monthly archives. "
+msgstr ""
+
+#: inc/widgets/widget-about.php:49
+msgid "Twitter"
+msgstr ""
+
+#: inc/widgets/widget-about.php:121
+msgid "Twitter:"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:230 inc/class-vt-blogging-admin.php:368
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/template-tags.php:79
+#, php-format
+msgid "View all posts in "
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:287
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:136
+msgid "View Demo"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:232 inc/class-vt-blogging-admin.php:493
+msgid "View Pro"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:138
+msgid "View PRO version"
+msgstr ""
+
+#. Author of the theme
+#: inc/template-tags.php:127
+msgid "VolThemes"
+msgstr ""
+
+#. Name of the theme
+msgid "VT Blogging"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"VT Blogging is a Minimal and Clean WordPress Theme. Mobile-friendly "
+"(responsive), optimized for speed, and implements SEO (search engine "
+"optimization) best practices. The theme options are powered by Customizer. "
+"You can check out the demo for a closer look at: https://volthemes.com/demo?"
+"theme=VT-Blogging"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:374
+msgid "VT Blogging Lite"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:375
+#: customizer/customizer-library/extensions/class-upsell-customize.php:76
+msgid "VT Blogging Pro"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:96
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing VT Blogging Theme! To fully take advantage "
+"of the best our theme can offer please make sure you visit our welcome page."
+msgstr ""
+
+#: inc/widgets/widget-about.php:14
+msgctxt "widget name"
+msgid "[VT] About Widget"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:350
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:460
+msgid "Woocommerce Compatible"
+msgstr ""
+
+#: inc/template-tags.php:125
+msgid "WordPress"
+msgstr ""
+
+#: inc/class-vt-blogging-admin.php:347
+msgid "Yoast SEO"
+msgstr ""
+
+#: template-parts/content-single.php:109
+msgid "You May"
+msgstr ""
+
+#: inc/widgets/widget-about.php:50
+msgid "Youtube"
+msgstr ""
+
+#: inc/widgets/widget-about.php:126
+msgid "Youtube:"
+msgstr ""
