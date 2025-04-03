@@ -20,6 +20,7 @@
 <meta name="HandheldFriendly" content="true">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <meta name="google-site-verification" content="WBeyYMBeso1JjmSRafghyA67BpAklT03tQcN5hi5_x0" />
+<meta name="msvalidate.01" content="F4C07540638613A75887810560843347" />
 	
 <?php wp_head(); ?>
 
