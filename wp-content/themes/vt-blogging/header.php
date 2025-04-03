@@ -19,7 +19,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="true">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
+<meta name="google-site-verification" content="WBeyYMBeso1JjmSRafghyA67BpAklT03tQcN5hi5_x0" />
+	
 <?php wp_head(); ?>
 
 </head>
